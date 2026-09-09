@@ -1,15 +1,15 @@
 package customer
 
-type customer struct {
+type Customer struct {
 	name string
 }
 
-func NewCustomer(name string) *customer {
-	return &customer{
+func NewCustomer(name string) *Customer {
+	return &Customer{
 		name: name,
 	}
 }
 
-func (c *customer) String() string {
+func (c *Customer) String() string {
 	return c.name
 }

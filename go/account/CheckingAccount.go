@@ -1,7 +1,7 @@
 package account
 
 import (
-	"go/customer"
+	"p1/go/customer"
 )
 
 type CheckingAccount struct {
@@ -20,4 +20,8 @@ func NewCheckingAccount(number int, customer customer.Customer, balance float64)
 
 func (c *CheckingAccount) Accrue(rate float64) {
 
+}
+
+func (c *CheckingAccount) GetInterest() float64 {
+	return 0
 }
