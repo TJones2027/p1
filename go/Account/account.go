@@ -2,7 +2,7 @@ package account
 
 import (
 	"fmt"
-	"somename/customer"
+	"go/customer"
 )
 
 type Account struct {

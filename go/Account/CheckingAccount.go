@@ -1,7 +1,7 @@
 package account
 
 import (
-	"somename/customer"
+	"go/customer"
 )
 
 type CheckingAccount struct {
