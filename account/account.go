@@ -2,7 +2,7 @@ package account
 
 import (
 	"fmt"
-	"p1/go/customer"
+	"p1/customer"
 )
 
 type Account struct {
@@ -28,5 +28,5 @@ func (a *Account) Withdraw(amount float64) {
 }
 
 func (a *Account) String() string {
-	return fmt.Sprintf("%d: %s: %.2f", a.Number, a.Customer, a.Balance)
+	return fmt.Sprintf("%d: %s: %.2f", a.Number, &a.Customer, a.Balance)
 }

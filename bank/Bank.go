@@ -2,7 +2,7 @@ package bank
 
 import (
 	"fmt"
-	"p1/go/account"
+	"p1/account"
 )
 
 type BankAccount interface {
